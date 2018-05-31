@@ -1,0 +1,6 @@
+pipeline:
+  docker:
+    image: plugins/docker
+    secrets: [ docker_username, docker_password ]
+    repo: meetmatt/drone-test
+    tags: latest
